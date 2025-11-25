@@ -40,8 +40,8 @@ def prepare_user_input(input_df, full_features):
 
     return user_df
 
-model = joblib.load("moscow_forest_model.pkl")
-pipeline = joblib.load("moscow_full_pipeline.pkl")
+model = joblib.load("models/moscow_forest_model.pkl")
+pipeline = joblib.load("models/moscow_full_pipeline.pkl")
 
 full_features = [
     'Minutes to metro', 'Number of rooms', 'Area', 'Living area', 'Kitchen area',
