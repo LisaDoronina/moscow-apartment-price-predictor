@@ -55,7 +55,6 @@ def prepare_user_input(input_df, full_features):
 
 
 def prepare_user_input(input_dict, full_features):
-    # Extract values directly from the dictionary (no .iloc needed)
     area = input_dict['Area']
     floor = input_dict['Floor']
     floors_total = input_dict['Number of floors']
